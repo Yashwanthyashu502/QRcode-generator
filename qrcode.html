@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QR code Generator</title>
+    <link rel="stylesheet" href="qrcode.css">
+    <script src="qrcode.js"></script>
+</head>
+<body>
+    <div class="grid">
+        <h2> Qr code Generator</h2>
+        <center><img src="" id="img"></center>
+        <div>
+            <select name="" id="size">
+                <option value="100">100X100</option>
+                <option value="150">150X150</option>
+                <option value="200">200X200</option>
+                <option value="250" selected>250X250</option>
+                <option value="300">300X300</option>
+            </select>
+        </div>
+        <br><br>
+        <Textarea placeholder="Enter your Text" id="qrtext"></Textarea>
+        <br><br>
+        <input type="Submit" id="button" value="Generate" onclick="genQr()">
+        <p>Developed by Yashwanth.S</p>
+    </div>
+    
+    
+</body>
+</html>
